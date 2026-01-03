@@ -37,3 +37,21 @@ AI 분석 결과를 사용자가 직관적으로 이해할 수 있도록
 ```bash
 git clone https://github.com/SarahCho0/xai-digital-persona-ui.git
 cd xai-digital-persona-ui
+```
+
+### 2. 가상환경 설정
+```bash
+python -m venv venv
+source venv/bin/activate   # macOS Linux
+venv\Scripts\activate      # Windows
+```
+
+### 3. 패키지 설치 
+```bash
+pip install -r requirements.txt
+```
+
+### 4. 앱 실행
+```bash
+streamlit run app.py
+```
